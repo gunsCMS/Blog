@@ -8,9 +8,9 @@ use Illuminate\Foundation\Testing\RefreshDatabase;
 
 class SavePostsTest extends TestCase
 {
-    use RefreshDatabase;
+    /*use RefreshDatabase;*/
     /** @test */
-    public function a_post_can_be_create_wiht_the_factory()
+    public function a_post_can_be_create_factory()
     {
         $post = factory(Post::class)->create();
         $this->assertCount(1, Post::all());

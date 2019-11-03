@@ -25,5 +25,13 @@
     "psr-4": {
       "gunsCMS\\Blog\\Tests\\": "tests/"
     }
+  },
+  "extra": {
+    "laravel": {
+      "dont-discover": [],
+      "providers": [
+        "gunsCMS\\Blog\\BlogBaseServiceProvider"
+      ]
+    }
   }
 }
