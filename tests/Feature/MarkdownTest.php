@@ -10,9 +10,8 @@ use Orchestra\Testbench\TestCase;
 class markdownTest extends TestCase
 {
     /** @test */
-    public function experiment()
+    public function simple_markdown_is_parsed()
     {
-        $result = MarkdownParser::parser('Hello _Parsedown_!');
-        dd($result);
+        $this->assertEquals("<h1>Hello Parsedown!</h1>", MarkdownParser::parser('# Hello Parsedown!'));
     }
 }
