@@ -10,7 +10,8 @@
     }
   ],
   "require": {
-    "erusev/parsedown": "^1.7"
+    "erusev/parsedown": "^1.7",
+    "laravel/helpers": "v1.1.1"
   },
   "require-dev": {
     "orchestra/testbench": "v4.3.0"

@@ -4,8 +4,6 @@
 namespace gunsCMS\Blog\Tests;
 
 use gunsCMS\Blog\MarkdownParser;
-use Orchestra\Testbench\TestCase;
-
 
 class markdownTest extends TestCase
 {
